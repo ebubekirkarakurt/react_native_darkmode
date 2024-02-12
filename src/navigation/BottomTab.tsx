@@ -4,9 +4,8 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from '../screens/Home';
 import Chats from '../screens/Chats';
 import Account from '../screens/Account';
-import Settings from '../screens/Settings';
 import { StyleSheet } from 'react-native';
-import CustomIcon from '../components/CustomIcon';
+import Settings from '../screens/Settings';
 
 const BottomTabNavigator = createBottomTabNavigator();
 
