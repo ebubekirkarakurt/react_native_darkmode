@@ -13,7 +13,7 @@ export function DarkText(props: TextProps & ThemeProps) {
       style={[
         style,
         {
-          color: isDarkMode ? 'gray' : 'black',
+          color: isDarkMode ? 'white' : 'black',
           opacity: isDarkMode ? 0.6 : 1,
         },
       ]}
@@ -30,6 +30,21 @@ export function Main(props: ViewProps & ThemeProps) {
         style,
         {
           backgroundColor: isDarkMode ? '#121212' : 'white',
+        },
+      ]}
+      {...rest}
+    />
+  );
+}
+
+export function Card(props: ViewProps & ThemeProps) {
+  const { isDarkMode, style, ...rest } = props;
+  return (
+    <View
+      style={[
+        style,
+        {
+          backgroundColor: isDarkMode ? '#02b875' : 'gray',
         },
       ]}
       {...rest}
