@@ -19,6 +19,12 @@ You can use the system theme or choose dark mode with this project.
   <img src="./assets/settingsdark.png" width="300">
 </div>
 
+## Using Expo
+```bash
+   - go to app.json file
+   - change "userInterfaceStyle": "light" --> "userInterfaceStyle": "automatic",
+```
+
 ## Installation
 
 Install my-project with npm
